@@ -73,7 +73,7 @@ def select_province(driver, state, notify):
 
 def select_office_and_procedure(driver, state, notify):
     select_option_by_text(driver, (By.NAME, 'sede'), OFFICE)
-    random_sleep(1000, 2000)
+    random_sleep(3000, 5000)
     select_option_by_text(driver, (By.NAME, 'tramiteGrupo[0]'), PROCEDURE)
     random_sleep(3000, 5000)
     driver.execute_script("envia()")
