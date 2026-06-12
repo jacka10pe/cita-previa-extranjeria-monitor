@@ -62,3 +62,10 @@ NIE: str = get_env_var("NIE")
 
 # Full name
 FULL_NAME: str = get_env_var("FULL_NAME")
+
+# Nationality
+NATIONALITY: str = get_env_var("NATIONALITY")
+
+TELEPHONE: str = get_env_var("TELEPHONE")
+
+EMAIL: str = get_env_var("EMAIL")
